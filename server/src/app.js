@@ -1,10 +1,6 @@
 const express = require('express');
 const app = express();
 const cors = require('cors')
-const route = express.Router()
-const path = require('path');
-
-
 
 const ai = require('./aiBot.js');
 
@@ -15,7 +11,7 @@ app.use(express.json());
 
 app.use('/',ai.botaAi)
 
-route.get('/mensagem', ai.botaAi);
+//route.get('/mensagem', ai.botaAi);
 
 app.listen(app.get('port'),()=>{
     console.log('Start server on port' + app.get('port'));
