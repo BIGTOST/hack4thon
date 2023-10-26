@@ -91,8 +91,13 @@
   position: relative;
 }
 
-.active, .button:hover {
-  background-color: #57a1da52;
+.active {
+  background-color: #2976b08e;
+  color: white;
+}
+
+.button:hover {
+  background-color: #57a1da2f;
   color: white;
 }
 
@@ -117,4 +122,12 @@
 .form-control {
   border: none;
   outline: none;
+}
+
+.like:hover{
+  background-color: #26ac1773;
+}
+
+.dislike:hover{
+  background-color: #ac171773;
 }
