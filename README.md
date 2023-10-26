@@ -1,5 +1,5 @@
 # hack4thon 2023
-# StudyBot - Educação Personalizada para Todos
+# StudyMentor - Educação Personalizada para Todos
 
 É uma plataforma de IA que capacita os alunos a personalizar métodos de estudo, otimizar horários de aprendizado e acessar recursos educacionais de qualidade. Promove a personalização do aprendizado, ajuda a combater a desigualdade educacional e capacita os alunos a acessar materiais educacionais valiosos, independentemente de recursos limitados, contribuindo assim para o desenvolvimento de comunidades em regiões subdesenvolvidas.
 ## Principais Funcionalidades
@@ -18,4 +18,4 @@
 
 1. Clone este repositório.
 2. Execute 'npm install' em ambas as pastas, backend e frontend, para installar node_modules.
-3. Execute 'npm start' no frontend e 'npm run dev' no backend para iniciar o "StudyBot".
+3. Execute 'npm start' no frontend e 'npm run dev' no backend para iniciar o "StudyMentor".
